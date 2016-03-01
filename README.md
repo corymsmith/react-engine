@@ -212,7 +212,7 @@ function collector(stats) {
 }
 
 var engine = require('react-engine').server.create({
-  routes: './routes.jsx'
+  routes: './routes.jsx',
   performanceCollector: collector
 });
 ```
